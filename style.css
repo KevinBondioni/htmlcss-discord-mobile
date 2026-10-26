@@ -17,9 +17,25 @@ header img {
 h2 {
     font-family: sigmar;
     color: white;
+    line-height: 25px;
+    margin-bottom: 20px;
 }
 
 p {
     font-family: "DM sans";
     color: white;
+    margin-bottom: 10px;
+}
+
+#first-card {
+    text-align: center;
+    margin: 70px;
+
+
+}
+
+button {
+    display: block;
+    position: relative;
+    left: 100px
 }
