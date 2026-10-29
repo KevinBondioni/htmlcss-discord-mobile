@@ -1,80 +1,59 @@
 <!DOCTYPE html>
 <html lang="it">
 
-<Head>
+<head>
     <meta charset="UFT-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <title>Discord</title>
-    <link rel="Stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width initial scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-        rel="stylesheet">
-    <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sigmar&display=swap"
         rel="stylesheet">
-</Head>
+
+    <link rel="Stylesheet" href="style.css">
+    <!--inserire logo discord-->
+    <title>Discord</title>
+</head>
 
 <body>
 
-    <Header>
+    <header>
         <img src="img/banner.png" alt="banner">
-    </Header>
+    </header>
 
     <main>
-        <div id="first-card">
-            <h1>GROUP CHAT <br>THAT'S ALL FUN &<br> GAMES</h1>
+        <div id="first-box">
+            <h1>GROUP CHAT THAT'S ALL FUN & GAMES</h1>
             <p>Discord is great for playing games and chilling with friends, or even building a
                 worldwide community.
                 Customize your own space to talk, play, and hang out</p>
-            <button>
-                <i class="bi bi-cloud-download"></i>
-                Download for Windows
-            </button>
-
-            <button id="discord-web" class="f-card-elements">
-                <a href="https://discord.com/">Open Discord in your browser</a>
-            </button>
-
+            <button><i class="bi bi-cloud-download"></i> Download for Windows</button>
+            <button id="open-browser"><a href="https://discord.com/">Open Discord in your browser</a></button>
         </div>
 
-        <div class="video-box">
-            <span class=icon><img src="img/discord_cube.png"></span>
-            <h1>MAKE YOUR <br> GROUP CHATS <br> MORE FUN</h1>
-            <P>Use custom emoji, stickers, soundboard <br> effects and more add your personality to <br>your voice,
+        <div>
+            <img src="img/discord_cube.png" alt="discord_cube">
+            <h1>MAKE YOUR GROUP CHATS MORE FUN</h1>
+            <P>Use custom emoji, stickers, soundboard effects and more add your personality to your voice,
                 video, or
-                text chat. Set your avatar<br> and a custom status, and write your own <br>profile to show up in chat
+                text chat. Set your avatar and a custom status, and write your own profile to show up in chat
                 your way
             </P>
-            <div class="videobox">
-                <video autoplay loop muted playsinline>
-                    <source src="video/video_demo.mp4" type="video/mp4">
-                </video>
-            </div>
+            <video src="video/video_demo.mp4" type="video/mp4" autoplay muted loop>
         </div>
 
-        <div class="video-box">
-            <span class=icon><img src="img/eyes.png"></span>
-            <h1>MAKE YOUR <br> GROUP CHATS <br> MORE FUN</h1>
-            <P>Use custom emoji, stickers, soundboard <br> effects and more add your personality to <br>your voice,
+        <div>
+            <img src="img/eyes.png" alt="eyes">
+            <h1>MAKE YOUR GROUP CHATS MORE FUN</h1>
+            <P>Use custom emoji, stickers, soundboard effects and more add your personality to your voice,
                 video, or
-                text chat. Set your avatar<br> and a custom status, and write your own <br>profile to show up in chat
+                text chat. Set your avatar and a custom status, and write your own profile to show up in chat
                 your way
             </P>
-            <div class="videobox">
-                <video autoplay loop muted playsinline>
-                    <source src="video/streamer.mp4" type="video/mp4">
-                </video>
-            </div>
+            <video src="video/streamer.mp4" type="video/mp4" autoplay muted loop></video>
         </div>
-
     </main>
-
-
-
 </body>
-
 
 </html>
